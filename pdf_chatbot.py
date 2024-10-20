@@ -33,7 +33,7 @@ def get_text_chunks(text):
 def get_vectorstore(text_chunks):
     try:
         # Initialize OpenAI embeddings
-        embeddings = OpenAIEmbeddings(openai_api_key=st.secrets["OPEN_API_KEY"])
+        embeddings = OpenAIEmbeddings(openai_api_key=st.secrets["OPENAI_API_KEY"])
         if not text_chunks:
             st.error("No text chunks to process. Please check your PDF content.")
             return None
