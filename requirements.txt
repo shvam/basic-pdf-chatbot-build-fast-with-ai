@@ -6,4 +6,4 @@ langchain-community
 tiktoken
 chromadb
 protobuf==3.20.0
-pysqlite3-binary
+sqlite3 >= 3.35.0
