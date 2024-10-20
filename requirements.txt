@@ -7,3 +7,4 @@ faiss-cpu
 openai
 tiktoken
 chromadb
+protobuf==3.20.0
